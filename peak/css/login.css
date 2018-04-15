@@ -1,0 +1,103 @@
+.content {
+  height: 925px;
+  width: 100%;
+  position: relative;
+  background: url(../images/bg1.gif) no-repeat left 900px top 20px;
+}
+.content .content_l {
+  position: absolute;
+  top: 115px;
+  left: 558px;
+  height: 330px;
+  width: 310px;
+  text-align: center;
+}
+.content .content_l img {
+  margin: 0 auto;
+  margin-top: 55px;
+}
+.content .content_l p {
+  height: 28px;
+  line-height: 28px;
+  width: 310px;
+}
+.content .content_l span {
+  height: 30px;
+  line-height: 30px;
+  color: red;
+  width: 310px;
+}
+.content .content_r {
+  height: 450px;
+  width: 400px;
+  position: absolute;
+  top: 115px;
+  right: 400px;
+}
+.content .content_r .dige > ul {
+  display: flex;
+  width: 400px;
+  height: 88px;
+}
+.content .content_r .dige > ul li {
+  height: 88px;
+  width: 200px;
+  line-height: 88px;
+  text-align: center;
+  font-size: 18px;
+}
+.content .content_r h3 {
+  height: 70px;
+  line-height: 70px;
+  font-size: 20px;
+  color: red;
+}
+.content .content_r input[type="text"] {
+  height: 50px;
+  width: 390px;
+  border: 1px solid #aaa;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.content .content_r input[type="button"] {
+  height: 50px;
+  width: 195px;
+  border: none;
+  position: absolute;
+  left: 196px;
+  top: 254px;
+  font-size: 24px;
+  color: #fff;
+}
+.content .content_r input[type="button"]:hover {
+  background: red;
+  cursor: pointer;
+}
+.content .content_r input[type="submit"] {
+  height: 50px;
+  width: 195px;
+  border: 1px solid #aaa;
+  border: none;
+  font-size: 26px;
+  color: #fff;
+}
+.content .content_r input[type="submit"]:hover {
+  background: red;
+}
+.content .content_r .cp {
+  border-top: 1px dashed #000;
+}
+.content .content_r .cp p {
+  height: 58px;
+  line-height: 58px;
+  font-size: 18px;
+  text-align: center;
+  width: 400px;
+}
+.content .content_r .cp ul {
+  display: flex;
+  justify-content: center;
+}
+.content .content_r .cp ul li {
+  margin: 0 6px;
+}
